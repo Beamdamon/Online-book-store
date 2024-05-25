@@ -1,0 +1,45 @@
+/* Styles the body of the hmtl to push the content into the center. Changes font of text. */
+body {
+    font-family: Arial, sans-serif;
+    width: 50%;
+    margin: auto;
+}
+
+/* Styles h1 and h3 in html */
+h1, h3 {
+    text-align: center;
+    font-size: 1.2em;
+    color: darkgreen;
+}
+
+/* Changes the font size of h3 back to it's initial value */
+h3 {
+ font-size: 1.0em;
+}
+
+/* Styles the divs margin and padding */
+div {
+    margin: auto;
+    padding-top: 25px;
+}
+
+/* Styles the paragraph text, adjusting width, padding, and line height */
+p {
+    width: 60%;
+    padding-bottom: 100px;
+    padding-right: 25px;
+    line-height: 2;
+}
+
+
+/* Styles the divs with the class of "story" to display no text */
+.story  {
+    display: none;
+}
+
+/* Styles the book cover images, setting their height, width, orientation, and margins */
+img {
+    height: auto;
+    width: 30%;
+    float: right;
+}
